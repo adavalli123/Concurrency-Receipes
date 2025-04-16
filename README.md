@@ -61,9 +61,7 @@ Diagram
     }
 
 ```
-2. Structured Concurrency
-Explanation
-Structured concurrency ensures that asynchronous tasks are started and managed in a well-organized manner, making it easier to handle errors and manage task lifecycles.
+2. Structured Concurrency: Structured concurrency ensures that asynchronous tasks are started and managed in a well-organized manner, making it easier to handle errors and manage task lifecycles.
 
 Example
 ```
@@ -95,9 +93,7 @@ Diagram
     Tasks await completion of both fetchProfile and fetchPosts
     and handle the results together.
 ```
-3. Actors
-Explanation
-Actors are a new reference type that protect mutable state by isolating concurrent access. This means that only one task can access an actor's mutable state at a time.
+3. Actors: Actors are a new reference type that protect mutable state by isolating concurrent access. This means that only one task can access an actor's mutable state at a time.
 
 Example
 ```
@@ -128,9 +124,7 @@ Diagram
     Task -----> Counter.increment()
     Task -----> Counter.getValue()
 ```
-4. Task Groups
-Explanation
-Task groups allow for the creation and management of a group of related tasks. This is useful when you need to perform several related asynchronous operations concurrently and then process their results collectively.
+4. Task Groups: Task groups allow for the creation and management of a group of related tasks. This is useful when you need to perform several related asynchronous operations concurrently and then process their results collectively.
 
 Example
 ```
