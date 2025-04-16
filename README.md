@@ -8,7 +8,8 @@ async and await are keywords used to handle asynchronous operations in a more re
 
 * async is used to mark functions that will run asynchronously.
 * await is used within an async context to pause execution until an asynchronous operation completes.
-Example
+
+Example:
 Imagine fetching a user's profile and then fetching their posts sequentially:
 ```
 import Foundation
